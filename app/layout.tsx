@@ -9,6 +9,15 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Alex Waweru | Data Scientist & ML Engineer Portfolio',
   description: 'Alex Waweru - Data Scientist & ML Engineer specializing in advanced analytics, machine learning, and AI-driven solutions using Python, R, and SQL',
+  icons: {
+    icon: [
+      {
+        url: "/AlexWaweru.github.io/images/favicon.gif",
+        href: "/AlexWaweru.github.io/images/favicon.gif"
+      }
+    ]
+  }
+
 }
 
 export default function RootLayout({
