@@ -25,7 +25,7 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/images/alex-waweru.jpg"
+              src="/AlexWaweru.github.io/images/alex-waweru.jpg"
               alt="Alex Waweru"
               width={400}
               height={400}
