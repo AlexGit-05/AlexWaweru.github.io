@@ -2,7 +2,7 @@
   "name": "portfolio-aw",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AlexGit-05.github.io/AlexWaweru.github.io",
+  "homepage": "https://alexgit-05.github.io/AlexWaweru.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
