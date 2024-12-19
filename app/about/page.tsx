@@ -45,7 +45,7 @@ export default function AboutMe() {
               I&apos;m constantly learning and staying up-to-date with the latest advancements in AI and data science. My goal is to leverage these cutting-edge technologies to solve complex problems and drive innovation in the industry.
             </p>
             <Button asChild className="bg-blue-600 hover:bg-blue-700">
-              <a href="/file/alex-waweru-cv.pdf" download>
+              <a href="/AlexWaweru.github.io/file/alex-waweru-cv.pdf" download>
                 <Download className="mr-2 h-4 w-4" /> Download CV
               </a>
             </Button>

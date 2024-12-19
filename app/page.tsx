@@ -237,7 +237,7 @@ export default function Home() {
 
           <div className="relative w-full h-full flex items-center justify-center">
             <Image
-              src="/images/logo.png"
+              src="/AlexWaweru.github.io/images/logo.png"
               alt="AW Data Scientist Logo"
               width={240}
               height={240}
