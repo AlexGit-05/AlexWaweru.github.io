@@ -36,13 +36,13 @@ export default function AboutMe() {
             <h2 className="text-2xl font-semibold mb-4 text-blue-400">Alex Waweru</h2>
             <h3 className="text-xl mb-4">Data Scientist & ML Engineer</h3>
             <p className="mb-6">
-              With over 5 years of experience in the field of data science and machine learning, I've developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
+              With over 5 years of experience in the field of data science and machine learning, I&apos;ve developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
             </p>
             <p className="mb-6">
               My expertise spans across various domains including energy sector optimization, environmental modeling, and financial market analysis. I specialize in developing machine learning models, conducting advanced statistical analyses, and creating data visualization tools that help businesses make informed decisions.
             </p>
             <p className="mb-6">
-              I'm constantly learning and staying up-to-date with the latest advancements in AI and data science. My goal is to leverage these cutting-edge technologies to solve complex problems and drive innovation in the industry.
+              I&apos;m constantly learning and staying up-to-date with the latest advancements in AI and data science. My goal is to leverage these cutting-edge technologies to solve complex problems and drive innovation in the industry.
             </p>
             <Button asChild className="bg-blue-600 hover:bg-blue-700">
               <a href="/file/alex-waweru-cv.pdf" download>
@@ -72,7 +72,7 @@ export default function AboutMe() {
   )
 }
 
-function Counter({ from, to }: { from: number; to: number }) {
+function Counter({ to }: { from: number; to: number }) {
   return (
     <motion.span
       initial={{ opacity: 0 }}

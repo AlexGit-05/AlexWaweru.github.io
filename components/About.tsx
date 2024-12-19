@@ -21,7 +21,7 @@ export default function About() {
         <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
         <div className="max-w-3xl mx-auto text-center">
           <p className="mb-6">
-            As a Data Scientist and Machine Learning Engineer, I specialize in developing innovative solutions that bridge the gap between complex data and actionable business insights. With a strong foundation in statistical analysis, machine learning, and AI, I've successfully completed projects across various domains including energy sector optimization, environmental modeling, and financial market analysis.
+            As a Data Scientist and Machine Learning Engineer, I specialize in developing innovative solutions that bridge the gap between complex data and actionable business insights. With a strong foundation in statistical analysis, machine learning, and AI, I&apos;ve successfully completed projects across various domains including energy sector optimization, environmental modeling, and financial market analysis.
           </p>
           <p className="mb-8">
             My expertise lies in leveraging cutting-edge technologies and methodologies to solve real-world problems, always with a focus on delivering measurable impact and driving data-informed decision-making.
@@ -48,7 +48,7 @@ export default function About() {
   )
 }
 
-function Counter({ from, to }: { from: number; to: number }) {
+function Counter({ to }: { from: number; to: number }) {
   return (
     <motion.span
       initial={{ opacity: 0 }}
