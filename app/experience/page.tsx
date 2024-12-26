@@ -6,23 +6,6 @@ import { Button } from "@/components/ui/button"
 
 const experiences = [
   {
-    title: "Applied Statistician/ Data Scientist Intern",
-    company: "KENYA ELECTRICITY GENERATING COMPANY (KenGen)",
-    location: "Nairobi, Kenya",
-    period: "July 2024 - Current",
-    responsibilities: [
-      "Revenue Performance Analysis: Conducted in-depth analysis of KenGen's revenue streams using Excel to assess performance trends and financial health. Later advanced to using statistical tools such R and Python.",
-      "Economic Data Analysis: Analyzed key economic indicators such as exchange rates and inflation using Excel and R to provide insights on their impact on energy pricing and revenue.",
-      "Energy Dispatch Analysis: Performed analysis on energy dispatch operations using Excel to monitor energy distribution and performance tracking.",
-      "Dashboard Creation: Built dynamic dashboards using Power BI and Python to visualize key metrics and enhance decision-making processes.",
-      "Algorithm Development: Developed algorithms in R and Python to automate energy dispatch and revenue performance analysis, significantly enhancing operational efficiency. Additionally, created an algorithm to streamline the ETL (Extract, Transform, Load) process for data, optimizing data processing workflows.",
-      "Database Management: Contributed to building a robust data management system using MySQL for improved data organization and access.",
-      "Automated System: Developed an algorithm to scrape the Kenya Law website and notify recipients via email whenever a new gazette was uploaded.", 
-      "Meter Reading Reconciliation: Assisted in the reconciliation of meter readings to ensure accuracy in energy usage reporting and billing.",
-      "Tariff Model Development: Developing tariff models for pricing strategies, focusing on load factor and energy demand. Gaining expertise in financial concepts like PMT for loan calculations and accrued interest. Involved in updating cash books, Balance Sheets (BS) and Profit & Loss (P&L) statements."
-    ]
-  },
-  {
     title: "Data Scientist/ Data Analyst",
     company: "FREELANCE DATA SCIENCE AND DATA ANALYSIS",
     location: "Remote",
@@ -35,6 +18,23 @@ const experiences = [
       "Project Diversity and Technical Proficiency: Engaged in a variety of projects including mini-projects in Excel, showcasing adaptability across different platforms and tools. Excelled in leveraging general AI techniques for data manipulation, further enhancing the effectiveness of machine learning models.",
       "Staying updated on industry trends, new technologies, and advancements in data science to enhance skills and methodologies.",
       "Applying analytical and problem-solving skills to address complex business challenges using data-driven approaches."
+    ]
+  },
+  {
+    title: "Applied Statistician/ Data Scientist Intern",
+    company: "KENYA ELECTRICITY GENERATING COMPANY (KenGen)",
+    location: "Nairobi, Kenya",
+    period: "July 2024 - December 2024",
+    responsibilities: [
+      "Revenue Performance Analysis: Conducted in-depth analysis of KenGen's revenue streams using Excel to assess performance trends and financial health. Later advanced to using statistical tools such R and Python.",
+      "Economic Data Analysis: Analyzed key economic indicators such as exchange rates and inflation using Excel and R to provide insights on their impact on energy pricing and revenue.",
+      "Energy Dispatch Analysis: Performed analysis on energy dispatch operations using Excel to monitor energy distribution and performance tracking.",
+      "Dashboard Creation: Built dynamic dashboards using Power BI and Python to visualize key metrics and enhance decision-making processes.",
+      "Algorithm Development: Developed algorithms in R and Python to automate energy dispatch and revenue performance analysis, significantly enhancing operational efficiency. Additionally, created an algorithm to streamline the ETL (Extract, Transform, Load) process for data, optimizing data processing workflows.",
+      "Database Management: Contributed to building a robust data management system using MySQL for improved data organization and access.",
+      "Automated System: Developed an algorithm to scrape the Kenya Law website and notify recipients via email whenever a new gazette was uploaded.", 
+      "Web Development: Designed and implemented a user-friendly web application using Dash to automate tasks and provide an interactive dashboard for data visualization and insights.",
+      "Tariff Model Development: Developing tariff models for pricing strategies, focusing on load factor and energy demand. Gaining expertise in financial concepts like PMT for loan calculations and accrued interest. Involved in updating cash books, Balance Sheets (BS) and Profit & Loss (P&L) statements."
     ]
   },
   {
