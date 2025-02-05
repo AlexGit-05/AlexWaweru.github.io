@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Business Analytics Dashboard",
     description: "Developed an interactive Power BI dashboard system to monitor a company service performance across Queens locations, tracking revenue growth, customer distribution, and product performance from 2021 to 2024",
-    image: "/AlexWaweru.github.io/images/dashboard.png",
+    image: "/AlexWaweru.github.io/images/dashboard.gif",
     link: "https://github.com/AlexGit-05/Data-Visualization/tree/main/Business-Analytics",
     category: "Data Analytics"
   },
