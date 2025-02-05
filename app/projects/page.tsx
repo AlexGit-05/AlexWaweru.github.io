@@ -7,6 +7,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const projects = [
   {
+    title: "Business Analytics Dashboard",
+    description: "Developed an interactive Power BI dashboard system to monitor a company service performance across Queens locations, tracking revenue growth, customer distribution, and product performance from 2021 to 2024",
+    image: "/AlexWaweru.github.io/images/dashboard-sales.png",
+    link: "https://github.com/AlexGit-05/Data-Visualization/tree/main/Business-Analytics",
+    category: "Data Analytics"
+  },
+  {
     title: "Energy Sector Data Automation and Analytics Dashboard",
     description: "Developed a robust Python Dash application to enhance data analysis and automate workflows within the energy sector. The dashboard integrates key functionalities such as real-time revenue performance tracking, in-depth energy dispatch analysis, and customizable tariff model design.",
     image: "/AlexWaweru.github.io/images/mvp.gif",
