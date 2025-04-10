@@ -17,7 +17,7 @@ const skills = {
     "Exploratory Data Analysis (EDA)",
     "ETL Pipelines",
     "Data Preprocessing",
-    "Feature Engineering",
+    "Feature Engineering"
   ],
   "Technologies & Tools": [
     "Python",
@@ -50,7 +50,7 @@ const skills = {
     "Communication",
     "Adaptability",
     "Attention to Detail",
-    "Self-motivation",
+    "Self-motivation"
   ]
 }
 
