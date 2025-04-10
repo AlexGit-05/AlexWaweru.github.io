@@ -36,7 +36,7 @@ export default function AboutMe() {
             <h2 className="text-2xl font-semibold mb-4 text-blue-400">Alex Waweru</h2>
             <h3 className="text-xl mb-4">Data Scientist & ML Engineer</h3>
             <p className="mb-6">
-              With over 5 years of experience in the field of data science and machine learning, I&apos;ve developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
+              With over 4 years of experience in the field of data science and machine learning, I&apos;ve developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
             </p>
             <p className="mb-6">
               My expertise spans across various domains including energy sector optimization, environmental modeling, and financial market analysis. I specialize in developing machine learning models, conducting advanced statistical analyses, and creating data visualization tools that help businesses make informed decisions.
@@ -61,7 +61,7 @@ export default function AboutMe() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 {inView ? <Counter from={0} to={stat.value} /> : 0}
-                {stat.value === 5 && '+'}
+                {stat.value === 4 && '+'}
               </motion.div>
               <div className="text-sm">{stat.label}</div>
             </div>
