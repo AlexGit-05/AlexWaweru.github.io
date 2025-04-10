@@ -27,7 +27,7 @@ const skills = {
     "Scikit-learn",
     "Tableau",
     "Power BI",
-    "Git",
+    "Git (Version Control, GitHub, CI/CD)",
     "Microsoft Excel",
     "Visual Studio Code",
     "Google Cloud Platform (GCP)",
