@@ -14,8 +14,7 @@ export default function AboutMe() {
 
   const stats = [
     { value: 4, label: 'Years Experience' },
-    { value: 15, label: 'Projects Completed' },
-    { value: 0, label: 'Publications' },
+    { value: 15, label: 'Projects Completed' }
   ]
 
   return (
