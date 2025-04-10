@@ -12,12 +12,6 @@ const educationData = [
     institution: "",
     year: "2018",
     description: "Completed Part 1, Section I, which covered units such as Financial Accounting, Business Law, and Entrepreneurship."
-  },
-  {
-    degree: "Kenya Certificate of Secondary Education (KCSE)",
-    institution: "Githiga Boys High School",
-    year: "2014 - 2017",
-    description: "Grade: B"
   }
 ]
 

@@ -10,7 +10,14 @@ const skills = {
     "Time Series Analysis",
     "Web scrapping",
     "Database Management Systems",
-    "Large Language Models (LLM)"
+    "Large Language Models (LLM)",
+    "Customer Relationship Managment (CRM)",
+    "Data Mining",
+    "Data Warehousing",
+    "Exploratory Data Analysis (EDA)",
+    "ETL Pipelines",
+    "Data Preprocessing",
+    "Feature Engineering",
   ],
   "Technologies & Tools": [
     "Python",
@@ -21,7 +28,16 @@ const skills = {
     "Tableau",
     "Power BI",
     "Git",
-    "Microsoft Excel"
+    "Microsoft Excel",
+    "Visual Studio Code",
+    "Google Cloud Platform (GCP)",
+    "Amazon Web Services (AWS)",
+    "Docker",
+    "Apache Airflow",
+    "Jupyter Notebook",
+    "RStudio",
+    'FastAPI',
+    "Next.js"
   ],
   "Soft Skills": [
     "Problem Solving",
@@ -31,7 +47,10 @@ const skills = {
     "Technical Writing",
     "Presentation Skills",
     "Critical thinking",
-    "Communication"
+    "Communication",
+    "Adaptability",
+    "Attention to Detail",
+    "Self-motivation",
   ]
 }
 
