@@ -6,6 +6,19 @@ import { Button } from "@/components/ui/button"
 
 const experiences = [
   {
+    "title": "Junior AI Engineer",
+    "company": "AICE",
+    "location": "Nairobi, Kenya",
+    "period": "May 2025 - Present",
+    "responsibilities": [
+      "Designed multi-step prompts to enhance reasoning, planning, and execution capabilities of autonomous AI agents using state-of-the-art prompting strategies.",
+      "Built modular agent workflows leveraging LangChain, LangGraph, and MCP to ensure flexible and scalable problem-solving architectures.",
+      "Integrated memory modules, decision-making loops, and tool usage to create dynamic, context-aware AI agent behaviors that adapt to evolving tasks.",
+      "Developed robust API connections and tool integrations—including web-based tools and code interpreters—utilizing Python and OpenAI Function Calling.",
+      "Collaborated with cross-functional teams to deploy, test, and iterate on LLM-powered systems, improving reliability and accuracy of AI applications."
+    ]
+  },
+  {
     title: "Data Scientist/ Data Analyst",
     company: "FREELANCE DATA SCIENCE AND DATA ANALYSIS",
     location: "Remote",

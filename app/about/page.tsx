@@ -33,7 +33,7 @@ export default function AboutMe() {
           </div>
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-blue-400">Alex Waweru</h2>
-            <h3 className="text-xl mb-4">Data Scientist & ML Engineer</h3>
+            <h3 className="text-xl mb-4">Data Scientist & AI Engineer</h3>
             <p className="mb-6">
               With over 4 years of experience in the field of data science and machine learning, I&apos;ve developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
             </p>
