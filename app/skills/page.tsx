@@ -31,13 +31,14 @@ const skills = {
     "Microsoft Excel",
     "Visual Studio Code",
     "Google Cloud Platform (GCP)",
-    "Amazon Web Services (AWS)",
     "Docker",
     "Apache Airflow",
     "Jupyter Notebook",
     "RStudio",
     'FastAPI',
-    "Next.js"
+    "Next.js",
+    "Langchain",
+    "Langgraph"
   ],
   "Soft Skills": [
     "Problem Solving",

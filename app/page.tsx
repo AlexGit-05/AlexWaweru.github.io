@@ -275,7 +275,7 @@ export default function Home() {
           className="mb-8 text-lg text-gray-300"
           variants={itemVariants}
         >
-          Leveraging advanced analytics, machine learning, and AI to transform complex data into actionable insights and innovative solutions. With expertise in statistical analysis, algorithm development, and deep learning, I specialize in creating impactful solutions across various domains.
+          Leveraging advanced analytics, machine learning, and AI to transform complex data into actionable insights and innovative solutions. With expertise in statistical analysis, agentic AI, and deep learning, I specialize in creating impactful solutions across various domains.
         </motion.p>
         
         <motion.div 

@@ -35,13 +35,13 @@ export default function AboutMe() {
             <h2 className="text-2xl font-semibold mb-4 text-blue-400">Alex Waweru</h2>
             <h3 className="text-xl mb-4">Data Scientist & AI Engineer</h3>
             <p className="mb-6">
-              With over 4 years of experience in the field of data science and machine learning, I&apos;ve developed a passion for transforming complex data into actionable insights. My journey in this field has been driven by a curiosity to understand patterns in data and a desire to create innovative solutions that make a real-world impact.
+              With over 4 years of hands-on experience in data science and machine learning, I specialize in transforming raw data into meaningful insights and intelligent solutions. My work is driven by a deep curiosity to uncover patterns and a commitment to building technologies that create measurable impact.
             </p>
             <p className="mb-6">
-              My expertise spans across various domains including energy sector optimization, environmental modeling, and financial market analysis. I specialize in developing machine learning models, conducting advanced statistical analyses, and creating data visualization tools that help businesses make informed decisions.
+              I’ve contributed to projects across diverse domains—including energy optimization, environmental forecasting, and financial analytics—developing predictive models, automating workflows, and building interactive data visualization tools to support strategic decision-making.
             </p>
             <p className="mb-6">
-              I&apos;m constantly learning and staying up-to-date with the latest advancements in AI and data science. My goal is to leverage these cutting-edge technologies to solve complex problems and drive innovation in the industry.
+              Continuously exploring advancements in AI, I focus on integrating cutting-edge technologies such as large language models (LLMs), computer vision, agentic AI, and natural language processing (NLP) to solve real-world challenges. I’m passionate about using data-driven innovation to drive growth, efficiency, and sustainability.
             </p>
             <Button asChild className="bg-blue-600 hover:bg-blue-700">
               <a href="/AlexWaweru.github.io/file/alex-waweru-cv.pdf" download>
