@@ -38,7 +38,7 @@ export default function AboutMe() {
               With over 4 years of hands-on experience in data science and machine learning, I specialize in transforming raw data into meaningful insights and intelligent solutions. My work is driven by a deep curiosity to uncover patterns and a commitment to building technologies that create measurable impact.
             </p>
             <p className="mb-6">
-              I’ve contributed to projects across diverse domains—including energy optimization, environmental forecasting, and financial analytics—developing predictive models, automating workflows, and building interactive data visualization tools to support strategic decision-making.
+              I’ve contributed to projects across diverse domains including energy optimization, environmental forecasting, and financial analytics developing predictive models, automating workflows, and building interactive data visualization tools to support strategic decision-making.
             </p>
             <p className="mb-6">
               Continuously exploring advancements in AI, I focus on integrating cutting-edge technologies such as large language models (LLMs), computer vision, agentic AI, and natural language processing (NLP) to solve real-world challenges. I’m passionate about using data-driven innovation to drive growth, efficiency, and sustainability.
