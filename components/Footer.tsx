@@ -1,10 +1,12 @@
+import { site } from '@/lib/site'
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 py-6">
-      <div className="container mx-auto px-6 text-center">
-        <p>&copy; {new Date().getFullYear()} Alex Waweru. All rights reserved. | Data Scientist & AI Engineer</p>
+    <footer>
+      <div className="wrap">
+        <span>© 2026 Alex Waweru · Senior AI Engineer</span>
+        <span><a href={`mailto:${site.email}`}>{site.email}</a> · {site.location}</span>
       </div>
     </footer>
   )
 }
-

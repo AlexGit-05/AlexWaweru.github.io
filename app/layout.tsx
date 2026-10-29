@@ -1,20 +1,23 @@
 import type { Metadata } from 'next'
-import { Space_Grotesk } from 'next/font/google'
+import { JetBrains_Mono, Space_Grotesk } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import PageTransition from '@/components/PageTransition'
+import Interactions from '@/components/home/Interactions'
+import ProjectDrawer from '@/components/ProjectDrawer'
+import Toast from '@/components/Toast'
 import './globals.css'
+import './site.css'
 
-const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-display' })
+const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
 
 export const metadata: Metadata = {
-  title: 'Alex Waweru | Data Scientist & ML Engineer Portfolio',
-  description: 'Alex Waweru - Data Scientist & ML Engineer specializing in advanced analytics, machine learning, and AI-driven solutions using Python, R, and SQL',
+  title: 'Alex Waweru | AI Engineer & Data Scientist',
+  description: 'Alex Waweru - AI Engineer & Data Scientist building LLM agents, forecasting models and analytics platforms with Python, R and SQL',
   icons: {
     icon: [
-      {
-        url: "/AlexWaweru.github.io/images/favicon.gif",
-        href: "/AlexWaweru.github.io/images/favicon.gif"
-      }
+      { url: "/AlexWaweru.github.io/images/favicon.svg", type: "image/svg+xml" }
     ]
   }
 
@@ -26,15 +29,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${spaceGrotesk.className} bg-gray-900 text-white`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
         <Header />
-        <main className="pt-16">
-          {children}
-        </main>
+        <PageTransition>
+          <main>{children}</main>
+        </PageTransition>
         <Footer />
+        <ProjectDrawer />
+        <Toast />
+        <Interactions />
       </body>
     </html>
   )
 }
-

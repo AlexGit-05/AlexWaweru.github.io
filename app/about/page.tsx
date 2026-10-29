@@ -1,85 +1,46 @@
-'use client'
-
-import Image from 'next/image'
-import { Button } from "@/components/ui/button"
+import type { Metadata } from 'next'
+import Link from 'next/link'
 import { Download } from 'lucide-react'
-import { useInView } from 'react-intersection-observer'
-import { motion } from 'framer-motion'
+import { BASE, site } from '@/lib/site'
 
-export default function AboutMe() {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  })
+export const metadata: Metadata = { title: 'About | Alex Waweru' }
 
-  const stats = [
-    { value: 4, label: 'Years Experience' },
-    { value: 15, label: 'Projects Completed' }
-  ]
+const facts = [
+  ['Role', 'Senior AI Engineer, AICE Africa'],
+  ['Based in', site.location],
+  ['Degree', 'BSc Applied Statistics with Computing'],
+  ['Experience', '7+ years in data and AI'],
+]
 
+const trio = [
+  ['01 · Agents', 'Agent platforms', 'Runtimes that plan, call tools and recover from errors, with guardrails, audit logs and human approval built in.'],
+  ['02 · Models', 'Applied machine learning', 'Vision models, recommenders and LLM pretraining, evaluated honestly against baselines and leakage.'],
+  ['03 · Analytics', 'Forecasting and analytics', 'Time-series and econometric models, and dashboards that finance and operations teams use every week.'],
+]
+
+export default function About() {
   return (
-    <section className="py-20 bg-gray-900">
-      <div className="container mx-auto px-6">
-        <h1 className="text-4xl font-bold mb-12 text-center">About Me</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <Image
-              src="/AlexWaweru.github.io/images/alex-waweru.jpg"
-              alt="Alex Waweru"
-              width={400}
-              height={400}
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-          <div>
-            <h2 className="text-2xl font-semibold mb-4 text-blue-400">Alex Waweru</h2>
-            <h3 className="text-xl mb-4">Data Scientist & AI Engineer</h3>
-            <p className="mb-6">
-              With over 4 years of hands-on experience in data science and machine learning, I specialize in transforming raw data into meaningful insights and intelligent solutions. My work is driven by a deep curiosity to uncover patterns and a commitment to building technologies that create measurable impact.
-            </p>
-            <p className="mb-6">
-              I’ve contributed to projects across diverse domains including energy optimization, environmental forecasting, and financial analytics developing predictive models, automating workflows, and building interactive data visualization tools to support strategic decision-making.
-            </p>
-            <p className="mb-6">
-              Continuously exploring advancements in AI, I focus on integrating cutting-edge technologies such as large language models (LLMs), computer vision, agentic AI, and natural language processing (NLP) to solve real-world challenges. I’m passionate about using data-driven innovation to drive growth, efficiency, and sustainability.
-            </p>
-            <Button asChild className="bg-blue-600 hover:bg-blue-700">
-              <a href="/AlexWaweru.github.io/file/alex-waweru-cv.pdf" download>
-                <Download className="mr-2 h-4 w-4" /> Download CV
-              </a>
-            </Button>
-          </div>
+    <>
+      <div className="wrap about-grid">
+        <div className="portrait">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={`${BASE}/images/alex-waweru.jpg`} alt="Alex Waweru standing against a teal studio backdrop" width={981} height={1280} />
         </div>
-        <div ref={ref} className="flex justify-center space-x-8 mt-12">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center">
-              <motion.div
-                className="text-4xl font-bold text-blue-400"
-                initial={{ opacity: 0, y: 20 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                {inView ? <Counter from={0} to={stat.value} /> : 0}
-                {stat.value === 4 && '+'}
-              </motion.div>
-              <div className="text-sm">{stat.label}</div>
-            </div>
-          ))}
+        <div className="about-copy">
+          <p className="eyebrow">About</p>
+          <h1>I build AI that works in production, and the <span className="grad">statistics that prove it</span>.</h1>
+          <p className="lead">I&apos;m a Senior AI Engineer at AICE Africa in Nairobi. I lead the architecture of a multi-tenant AI platform: an agent runtime built on LangGraph and MCP, with retrieval, recommendations, a sandbox for generated code and the console around them.</p>
+          <p className="lead">My background is applied statistics. Since 2020 I&apos;ve built forecasting models, automated reporting for KenGen and telecoms, and trained new data scientists. I care about systems people can trust and measure.</p>
+          <div className="facts">{facts.map(([k, v]) => <div key={k}><small>{k}</small><span>{v}</span></div>)}</div>
+          <div className="row">
+            <a className="btn primary" href={site.cv} download><Download />Download CV</a>
+            <Link className="btn" href="/experience">See my experience</Link>
+          </div>
         </div>
       </div>
-    </section>
+      <div className="wrap" style={{ paddingBottom: 80 }}>
+        <div className="trio">{trio.map(([eb, h, p]) => <div key={h}><p className="eyebrow">{eb}</p><h3>{h}</h3><p>{p}</p></div>)}</div>
+      </div>
+    </>
   )
 }
-
-function Counter({ to }: { from: number; to: number }) {
-  return (
-    <motion.span
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-    >
-      {to}
-    </motion.span>
-  )
-}
-

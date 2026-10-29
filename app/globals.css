@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* shadcn/ui tokens (HSL triplets) used by components/ui/* */
+  :root {
+    --background: 224 52% 8%;
+    --foreground: 210 40% 98%;
+    --card: 222 45% 14%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 45% 14%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 222 45% 14%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 45% 14%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 20%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 22%;
+    --input: 213 60% 45%;
+    --ring: 213 94% 68%;
+    --radius: 0.625rem;
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  /* entrance animations are CSS-only so hero text never waits on JS */
+  .rise { animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
+
+  .text-gradient {
+    background: linear-gradient(100deg, #93c5fd 0%, #60a5fa 45%, #22d3ee 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } }
+@keyframes blink { 50% { opacity: 0; } }
+@keyframes ping-soft {
+  0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.55); }
+  80%, 100% { box-shadow: 0 0 0 8px rgba(52, 211, 153, 0); }
+}
+@keyframes cue {
+  0% { transform: translateY(0); opacity: 1; }
+  70% { transform: translateY(8px); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
