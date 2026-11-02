@@ -12,9 +12,9 @@ export default function HomeFlow() {
     <div className="flow wrap" id="flow">
       <section className="fl-sec" id="sec-about" aria-label="About">
         <Link className="fl-panel fl-about depth" href="/about">
-          <div className="fl-head"><p className="eyebrow">About</p><h2>From data science to AI engineering</h2></div>
-          <p>I&apos;m a Senior AI Engineer at AICE Africa in Nairobi. I joined in May 2025 and was promoted in January 2026. I lead the architecture of AICE Nexus, a multi-tenant AI platform: agents, a knowledge base, a crawler, data access and a code sandbox.</p>
-          <p>Before that I spent years as a data scientist building pipelines, dashboards and econometric models, which is why I care about clean data and results people can check.</p>
+          <div className="fl-head"><p className="eyebrow">About</p><h2>From Applied Data Science to AI Systems Engineering</h2></div>
+          <p>I&apos;m a Senior AI Engineer at AICE Africa, where I&apos;ve been working since May 2025. I lead the architecture of AICE Nexus, a multi-tenant AI platform bringing together agentic AI, knowledge retrieval, web crawling, data intelligence, and secure code execution into a unified ecosystem of intelligent services.</p>
+          <p>My journey into AI engineering is rooted in applied data science. I&apos;ve spent years developing data pipelines, analytical dashboards, statistical and econometric models, and building and evaluating machine learning and deep learning models for predictive and analytical applications. That foundation continues to shape my approach to AI engineering, with an emphasis on data quality, statistical rigour, model performance, and building intelligent systems whose outputs can be evaluated and trusted.</p>
           <div className="fl-stats">
             {aboutStats.map((s) => <div key={s.label}><strong className={s.small ? 'sm' : undefined}>{s.value}</strong><span>{s.label}</span></div>)}
           </div>

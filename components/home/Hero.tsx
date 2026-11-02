@@ -145,7 +145,21 @@ export default function Hero() {
           <span className="pill rise d1"><i /><span><b>Senior AI Engineer at AICE Africa</b> · open to new opportunities</span></span>
           <h1 className="rise d2" aria-label="Alex Waweru"><span className="grad" id="hero-name" aria-hidden="true">Alex Waweru</span></h1>
           <p className="role rise d2" id="hero-role">Senior AI Engineer · Data Scientist</p>
-          <p className="lead rise d3" id="hero-lead">I build production AI: <b style={{ color: 'var(--fg)', fontWeight: 500 }}>LLM agent platforms</b> with LangGraph and MCP, <b style={{ color: 'var(--fg)', fontWeight: 500 }}>machine learning models</b>, and the <b style={{ color: 'var(--fg)', fontWeight: 500 }}>analytics</b> that teams use to make decisions.</p>
+          <p className="lead rise d3" id="hero-lead">
+          I engineer intelligent systems:{" "}
+          <b style={{ color: 'var(--fg)', fontWeight: 500 }}>
+            agentic AI platforms
+          </b>{" "}
+          powered by LangGraph and MCP,{" "}
+          <b style={{ color: 'var(--fg)', fontWeight: 500 }}>
+            machine learning models
+          </b>{" "}
+          built on data science and statistical foundations, and{" "}
+          <b style={{ color: 'var(--fg)', fontWeight: 500 }}>
+            production AI infrastructure
+          </b>{" "}
+          that turns intelligence into real-world capabilities.
+          </p>
           <div className="row rise d4" id="hero-ctas">
             <Link className="btn primary" href="/projects" id="cta-main">View projects →</Link>
             <a className="btn" href={site.cv} download><Download />Download CV</a>

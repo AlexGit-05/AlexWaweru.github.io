@@ -28,9 +28,10 @@ export default function About() {
         </div>
         <div className="about-copy">
           <p className="eyebrow">About</p>
-          <h1>I build AI that works in production, and the <span className="grad">statistics that prove it</span>.</h1>
-          <p className="lead">I&apos;m a Senior AI Engineer at AICE Africa in Nairobi. I lead the architecture of a multi-tenant AI platform: an agent runtime built on LangGraph and MCP, with retrieval, recommendations, a sandbox for generated code and the console around them.</p>
-          <p className="lead">My background is applied statistics. Since 2020 I&apos;ve built forecasting models, automated reporting for KenGen and telecoms, and trained new data scientists. I care about systems people can trust and measure.</p>
+          <h1>I engineer intelligent systems <span className="grad">grounded in data science</span> and built for production.</h1>
+          <p className="lead">I&apos;m a Senior AI Engineer at AICE Africa, where I lead the architecture of Nexus, a multi-tenant AI Platform-as-a-Service (AI PaaS) that unifies specialized AI and machine learning capabilities through a common developer ecosystem of APIs, SDKs, and agent orchestration tools. Its ecosystem includes agent runtimes powered by LangGraph and MCP, knowledge retrieval, recommendation systems, secure code execution, and a developer-facing control plane.</p>
+          <p className="lead">My foundation is in Applied Statistics, with professional experience dating back to 2020 across machine learning, statistical analysis, data modelling, and data-driven automation. I&apos;ve contributed to reporting automation initiatives for organizations including KenGen and telecommunications companies, while also mentoring and training emerging data scientists.</p>
+          <p className="lead">I work across the full intelligence lifecycle, from statistical modelling and machine learning to agentic AI, platform architecture, and production deployment. My focus is building intelligent systems that are not only technically capable, but also secure, measurable, reliable, and useful in real-world environments.</p>
           <div className="facts">{facts.map(([k, v]) => <div key={k}><small>{k}</small><span>{v}</span></div>)}</div>
           <div className="row">
             <a className="btn primary" href={site.cv} download><Download />Download CV</a>
